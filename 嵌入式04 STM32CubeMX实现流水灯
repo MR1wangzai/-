@@ -1,4 +1,4 @@
-//用以下代码代替通过STM32CubeMX转到KEIL生成的main.c中的主函数
+//用以下代码代替通过STM32CubeMX转到KEIL生成的main.c中的主函数内容
 SystemClock_Config();//系统时钟初始化
 MX_GPIO_Init();//gpio初始化
 while (1)
