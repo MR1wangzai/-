@@ -1,0 +1,4 @@
+//将以下代码加入main.c文件的while中
+char data[]="hello windows!\n";
+		HAL_UART_Transmit(&huart1,(uint8_t*)data,15,0xffff);
+		HAL_Delay(1000);
